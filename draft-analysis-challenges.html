@@ -1430,11 +1430,10 @@ consistently presented and readable pseudocode, formal grammars, state machine
 descriptions, etc can all help improve the precision by which specifications are represented.
 However, it's worth noting that sometimes precision can increase specification
 complexity. Balancing these two is not always easy in practice.<a href="#section-4.4-2" class="pilcrow">¶</a></p>
-<p id="section-4.4-3"><a href="https://github.com/hacspec/hacspec">HACSpec</a> aims to address this challenge.
-It is a carefully crafted subset of the rust language.
-So, it is familiar to cryptographic engineers. At the same time, this language
-has a precise semantics which has been embedded in <a href="https://www.fstar-lang.org/">F-star</a>,
-<a href="https://github.com/EasyCrypt/easycrypt">EasyCrypt</a> and <a href="https://coq.inria.fr/">Coq</a>.<a href="#section-4.4-3" class="pilcrow">¶</a></p>
+<p id="section-4.4-3"><span>[<a href="#HACSpec" class="cite xref">HACSpec</a>]</span> aims to address this challenge. It is a carefully crafted subset of the Rust
+language, and as such is familiar to cryptographic and security engineers. At the same
+time, this language has precise semantics which have been embedded in <span>[<a href="#FStar" class="cite xref">FStar</a>]</span>,
+<span>[<a href="#EasyCrypt" class="cite xref">EasyCrypt</a>]</span>, and <span>[<a href="#Coq" class="cite xref">Coq</a>]</span>.<a href="#section-4.4-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="resource-limits">
@@ -1533,6 +1532,22 @@ produced by the IETF and IRTF. It does not raise new security considerations.<a 
 <a href="#section-7.2" class="section-number selfRef">7.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
         </h3>
 <dl class="references">
+<dt id="Coq">[Coq]</dt>
+        <dd>
+<span class="refTitle">"Coq"</span>, <span>n.d.</span>, <span>&lt;<a href="https://coq.inria.fr/">https://coq.inria.fr/</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="EasyCrypt">[EasyCrypt]</dt>
+        <dd>
+<span class="refTitle">"EasyCrypt"</span>, <span>n.d.</span>, <span>&lt;<a href="https://github.com/EasyCrypt/easycrypt">https://github.com/EasyCrypt/easycrypt</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="FStar">[FStar]</dt>
+        <dd>
+<span class="refTitle">"F-Star"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.fstar-lang.org/">https://www.fstar-lang.org/</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="HACSpec">[HACSpec]</dt>
+        <dd>
+<span class="refTitle">"HACSpec"</span>, <span>n.d.</span>, <span>&lt;<a href="https://github.com/hacspec/hacspec">https://github.com/hacspec/hacspec</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="MLS">[MLS]</dt>
         <dd>
 <span class="refAuthor">Barnes, R.</span>, <span class="refAuthor">Beurdouche, B.</span>, <span class="refAuthor">Robert, R.</span>, <span class="refAuthor">Millican, J.</span>, <span class="refAuthor">Omara, E.</span>, and <span class="refAuthor">K. Cohn-Gordon</span>, <span class="refTitle">"The Messaging Layer Security (MLS) Protocol"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-mls-protocol-18</span>, <time datetime="2023-03-13" class="refDate">13 March 2023</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-ietf-mls-protocol-18">https://datatracker.ietf.org/doc/html/draft-ietf-mls-protocol-18</a>&gt;</span>. </dd>
