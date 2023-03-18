@@ -198,16 +198,27 @@ with formal methods. Educational material oriented towards engineers is needed.
 ## Incentives
 
 Lack of incentives is a large barrier to adopting formal analysis in practice.
-From a research perspective, there is often little incentive to work on formal analysis
-for "uninteresting" or "overly simple" protocols, including those that seem to be
-"obviously correct." Publishing formal analysis with negative results, i.e., which
-demonstrate that there are no problems with a technical specification, is often
-challenging. And without proper publishing incentives, there is little incentive
-for academic researchers to spend time on this type of work. Addressing this
-problem may require establishing a venue for more easily publishing formal analysis
-without compromising on the quality of peer review. Such venue should make clear
-that publishing analysis of any type is appropriate, including formal models, pen
-and paper proofs, and so on.
+From a research perspective, incentives vary. One incentive is the possibility to
+publish a peer-reviewed paper that has a positive impact on the researcher or their
+community. For example, publishing a paper might be incentive for young researchers who
+are still establishing themselves in the community. Publishing a paper might also be
+an incentive to help validate work in a community, e.g., by demonstrating that a research
+tool being developed has a positive influence on the community.
+
+Publishing is not always easy, though, as there there is often little
+incentive to work on formal analysis for "uninteresting" or "overly simple" protocols,
+including those that seem to be "obviously correct." This is because publishing formal
+analysis with negative results, i.e., which demonstrate that there are no problems with
+a technical specification, is challenging. Addressing this problem may require establishing
+a venue for more easily publishing formal analysis without compromising on the quality
+of peer review. Such venue should make clear that publishing analysis of any type is
+appropriate, including formal models, pen and paper proofs, and so on.
+
+Another incentive is direct financial support. This can come in the form of grants for
+individual researchers to work on a problem, financial aid delivered to a community or
+project to which the researcher belongs or contributes, or something else. Regardless
+of the way that the aid is delivered, financial support empowers researchers to do work
+that they might not otherwise be able to justify amongst competing priorities.
 
 From the specification editor's perspective, sometimes analysis can seem unnecessary,
 perhaps because the object being specified is indeed "obviously correct" or that
@@ -220,6 +231,12 @@ As obvious examples, cryptographic algorithms require analysis. Network protocol
 such as TLS also require analysis, but of a different type. The community could
 work on collecting examples of formal analyses to use as guidance in determining
 the suitable amount of analysis.
+
+Moreover, specification editors often have stronger incentive to ship software and
+specifications than perform formal analysis. This is not to suggest that editors
+discredit or otherwise devalue analysis, but rather that they are sometimes not willing
+to block progressing a specification on formal analysis. Cases where analysis receives
+equal priority are few and far between in the IETF.
 
 ## Complexity and Precision
 
