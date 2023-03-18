@@ -4,8 +4,8 @@
 
 Network Working Group                                         C. A. Wood
 Internet-Draft                                                Cloudflare
-Intended status: Informational                              8 March 2023
-Expires: 9 September 2023
+Intended status: Informational                             18 March 2023
+Expires: 19 September 2023
 
 
   Challenges, Opportunities, and Directions for Formal Analysis in the
@@ -42,7 +42,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 September 2023.
+   This Internet-Draft will expire on 19 September 2023.
 
 Copyright Notice
 
@@ -337,6 +337,14 @@ Table of Contents
    that sometimes precision can increase specification complexity.
    Balancing these two is not always easy in practice.
 
+   HACSpec (https://github.com/hacspec/hacspec) aims to address this
+   challenge.  It is a carefully crafted subset of the rust language.
+   So, it is familiar to cryptographic engineers.  At the same time,
+   this language has a precise semantics which has been embedded in
+   F-star (https://www.fstar-lang.org/), EasyCrypt
+   (https://github.com/EasyCrypt/easycrypt) and Coq
+   (https://coq.inria.fr/).
+
 4.5.  Resource Limits
 
    Analysis is also impeded by a limitation of resources.  Formal
@@ -423,14 +431,14 @@ Table of Contents
    [MLS]      Barnes, R., Beurdouche, B., Robert, R., Millican, J.,
               Omara, E., and K. Cohn-Gordon, "The Messaging Layer
               Security (MLS) Protocol", Work in Progress, Internet-
-              Draft, draft-ietf-mls-protocol-17, 19 December 2022,
+              Draft, draft-ietf-mls-protocol-18, 13 March 2023,
               <https://datatracker.ietf.org/doc/html/draft-ietf-mls-
-              protocol-17>.
+              protocol-18>.
 
    [OHTTP]    Thomson, M. and C. A. Wood, "Oblivious HTTP", Work in
-              Progress, Internet-Draft, draft-ietf-ohai-ohttp-06, 15
-              December 2022, <https://datatracker.ietf.org/doc/html/
-              draft-ietf-ohai-ohttp-06>.
+              Progress, Internet-Draft, draft-ietf-ohai-ohttp-08, 15
+              March 2023, <https://datatracker.ietf.org/doc/html/draft-
+              ietf-ohai-ohttp-08>.
 
    [PRIVACYPASS]
               Davidson, A., Iyengar, J., and C. A. Wood, "The Privacy
