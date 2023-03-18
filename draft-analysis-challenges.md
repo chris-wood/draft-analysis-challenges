@@ -21,12 +21,16 @@ informative:
    ProVerif: DOI.10.1561/3300000004
    Tamarin: DOI.10.3233/JCS-210053
    HACSpec:
+      title: HACSpec
       target: https://github.com/hacspec/hacspec
    EasyCrypt:
+      title: EasyCrypt
       target: https://github.com/EasyCrypt/easycrypt
    FStar:
+      title: F-Star
       target: https://www.fstar-lang.org/
    Coq:
+      title: Coq
       target: https://coq.inria.fr/
 
 
