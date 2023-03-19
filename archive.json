@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-03-16T00:06:23.368170+00:00",
+  "timestamp": "2023-03-19T00:06:49.266453+00:00",
   "repo": "chris-wood/draft-analysis-challenges",
   "labels": [
     {
@@ -55,15 +55,15 @@
       "id": "I_kwDOJG90R85g011i",
       "title": "Financial incentives ",
       "url": "https://github.com/chris-wood/draft-analysis-challenges/issues/1",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "chris-wood",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Sometimes just paying for analysis, or funding development of tools, is what's needed. This is worth noting.",
       "createdAt": "2023-03-14T23:39:03Z",
-      "updatedAt": "2023-03-14T23:39:03Z",
-      "closedAt": null,
+      "updatedAt": "2023-03-18T14:24:42Z",
+      "closedAt": "2023-03-18T14:24:42Z",
       "comments": []
     },
     {
@@ -83,5 +83,42 @@
       "comments": []
     }
   ],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 3,
+      "id": "PR_kwDOJG90R85MOl_W",
+      "title": "Update draft-analysis-challenges.md",
+      "url": "https://github.com/chris-wood/draft-analysis-challenges/pull/3",
+      "state": "MERGED",
+      "author": "spitters",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-03-16T16:09:23Z",
+      "updatedAt": "2023-03-18T14:04:31Z",
+      "baseRepository": "chris-wood/draft-analysis-challenges",
+      "baseRefName": "main",
+      "baseRefOid": "a7ff57f34ba9f757e8079881b4a180b3ed539b7b",
+      "headRepository": "spitters/draft-analysis-challenges",
+      "headRefName": "patch-2",
+      "headRefOid": "4d7f678f0ebdd79b71e1ddd8e1f0726081e45e63",
+      "closedAt": "2023-03-18T14:04:31Z",
+      "mergedAt": "2023-03-18T14:04:31Z",
+      "mergedBy": "chris-wood",
+      "mergeCommit": {
+        "oid": "aeb07274f60e0a6016aa4fe848fd6582e073b353"
+      },
+      "comments": [
+        {
+          "author": "chris-wood",
+          "authorAssociation": "OWNER",
+          "body": "Thanks! I'll merge this and then shuffle around the references.",
+          "createdAt": "2023-03-18T14:04:03Z",
+          "updatedAt": "2023-03-18T14:04:03Z"
+        }
+      ],
+      "reviews": []
+    }
+  ]
 }
