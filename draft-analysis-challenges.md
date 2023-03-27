@@ -231,7 +231,7 @@ options for overcoming this bias through incentives are below:
 - Making problem statements and real world requirements more clear. This should help scope
   the solution space and focus analysis on specifications and software that is shipping.
   In motivating work making these problem statements and their requirements clear, we should
-  strive to encourage research outside the constraints of these real world requirements. 
+  strive to encourage research outside the constraints of these real world requirements.
 - Provide financial support. This can come in the form of grants for individual researchers
   to work on a problem, financial aid delivered to a community or project to which the
   researcher belongs or contributes, or something else. Regardless of the way that the aid
