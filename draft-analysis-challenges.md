@@ -212,7 +212,7 @@ that may seem uninteresting "overly simple" protocols, including those that seem
 publication bias can result in solutions that may not be usable or deployable in
 practice due to different tradeoffs or requirements. This is not to say that research
 into alternative solutions is not desired; Indeed, research of this type offers new
-insights into possible solutions that may not have been previously considered. However, 
+insights into possible solutions that may not have been previously considered. However,
 in practice, this research may not have immediate impact, since it does not necessarily
 cover the specification that actually needs analysis.
 
