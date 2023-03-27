@@ -219,7 +219,7 @@ cover the specification that actually needs analysis.
 We need to acknowledge the reality of publication bias and work to overcome it. Some
 options for overcoming this bias through incentives are below:
 
-- Establishing a venue for more easily publishing formal analysis without compromising 
+- Establishing a venue for more easily publishing formal analysis without compromising
   on the quality of peer review. Such venue should make clear that publishing analysis
   of any type is appropriate, including formal models, pen and paper proofs, and so on.
 - Making the potential impact of analysis for emerging specifications that are being
