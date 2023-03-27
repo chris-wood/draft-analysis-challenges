@@ -221,7 +221,7 @@ options for overcoming this bias through incentives are below:
 
 - Establishing a venue for more easily publishing formal analysis without compromising 
   on the quality of peer review. Such venue should make clear that publishing analysis
-  of any type is appropriate, including formal models, pen and paper proofs, and so on. 
+  of any type is appropriate, including formal models, pen and paper proofs, and so on.
 - Making the potential impact of analysis for emerging specifications that are being
   developed and shipped more clear. A clear impact statement, e.g., evidence that analysis
   supports shipping software, may help overcome publication bias that adversely influences
