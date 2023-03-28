@@ -197,28 +197,46 @@ with formal methods. Educational material oriented towards engineers is needed.
 
 ## Incentives
 
-Lack of incentives is a large barrier to adopting formal analysis in practice.
-From a research perspective, incentives vary. One incentive is the possibility to
-publish a peer-reviewed paper that has a positive impact on the researcher or their
-community. For example, publishing a paper might be incentive for young researchers who
-are still establishing themselves in the community. Publishing a paper might also be
-an incentive to help validate work in a community, e.g., by demonstrating that a research
-tool being developed has a positive influence on the community.
+Publication bias is real and can adversely impede meaningful research and analysis on
+specifications and technologies being developed in the IETF. In particular, publication
+bias can influence the specifications that receive analysis, as well as related work
+and research on alternative solutions to problems those specifications aim to solve.
+Publication bias matters in practice because publications can have meaningful impacts
+on individuals' careers. For example, publishing a paper might be an incentive for
+young researchers who are still establishing themselves in the community, and publishing
+bias influences what those researchers might choose to work on.
 
-Publishing is not always easy, though, as there there is often little
-incentive to work on formal analysis for "uninteresting" or "overly simple" protocols,
-including those that seem to be "obviously correct." This is because publishing formal
-analysis with negative results, i.e., which demonstrate that there are no problems with
-a technical specification, is challenging. Addressing this problem may require establishing
-a venue for more easily publishing formal analysis without compromising on the quality
-of peer review. Such venue should make clear that publishing analysis of any type is
-appropriate, including formal models, pen and paper proofs, and so on.
+In general, publication bias means that there is little incentive to work on problems
+that may seem uninteresting "overly simple" protocols, including those that seem to be
+"obviously correct." Even for those problems that are deemed worthy of analysis,
+publication bias can result in solutions that may not be usable or deployable in
+practice due to different tradeoffs or requirements. This is not to say that research
+into alternative solutions is not desired; Indeed, research of this type offers new
+insights into possible solutions that may not have been previously considered. However,
+in practice, this research may not have immediate impact, since it does not necessarily
+cover the specification that actually needs analysis.
 
-Another incentive is direct financial support. This can come in the form of grants for
-individual researchers to work on a problem, financial aid delivered to a community or
-project to which the researcher belongs or contributes, or something else. Regardless
-of the way that the aid is delivered, financial support empowers researchers to do work
-that they might not otherwise be able to justify amongst competing priorities.
+We need to acknowledge the reality of publication bias and work to overcome it. Some
+options for overcoming this bias through incentives are below:
+
+- Establishing a venue for more easily publishing formal analysis without compromising
+  on the quality of peer review. Such venue should make clear that publishing analysis
+  of any type is appropriate, including formal models, pen and paper proofs, and so on.
+- Making the potential impact of analysis for emerging specifications that are being
+  developed and shipped more clear. A clear impact statement, e.g., evidence that analysis
+  supports shipping software, may help overcome publication bias that adversely influences
+  project selection. Publishing a paper might also be an incentive to help validate work in
+  a community, e.g., by demonstrating that a research tool being developed has a positive
+  influence on the community.
+- Making problem statements and real world requirements more clear. This should help scope
+  the solution space and focus analysis on specifications and software that is shipping.
+  In motivating work making these problem statements and their requirements clear, we should
+  strive to encourage research outside the constraints of these real world requirements.
+- Provide financial support. This can come in the form of grants for individual researchers
+  to work on a problem, financial aid delivered to a community or project to which the
+  researcher belongs or contributes, or something else. Regardless of the way that the aid
+  is delivered, financial support empowers researchers to do work that they might not
+  otherwise be able to justify amongst competing priorities.
 
 From the specification editor's perspective, sometimes analysis can seem unnecessary,
 perhaps because the object being specified is indeed "obviously correct" or that
