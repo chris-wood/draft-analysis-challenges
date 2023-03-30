@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-03-28T00:06:56.421564+00:00",
+  "timestamp": "2023-03-30T00:06:06.340555+00:00",
   "repo": "chris-wood/draft-analysis-challenges",
   "labels": [
     {
@@ -87,15 +87,15 @@
       "id": "I_kwDOJG90R85h0nwy",
       "title": "Expand on publication bias",
       "url": "https://github.com/chris-wood/draft-analysis-challenges/issues/4",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "chris-wood",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Publication bas influences project choice as well as project exploration. That is, it might influence the problem statements that people might choose to work on, and then might influence the way in which they explore the solution space. In practice, what we often need is analysis that gives us confidence in a well-defined solution that was chosen for specific reasons. For example, we had analysis done for blind RSA because it was used for Privacy Pass, whereas publication bias sort of led to a flurry of related papers that solved the problem with different constraints and tradeoffs in mind. ",
       "createdAt": "2023-03-27T01:05:10Z",
-      "updatedAt": "2023-03-27T01:24:09Z",
-      "closedAt": null,
+      "updatedAt": "2023-03-28T03:12:30Z",
+      "closedAt": "2023-03-28T03:12:30Z",
       "comments": [
         {
           "author": "chris-wood",
@@ -149,24 +149,26 @@
       "id": "PR_kwDOJG90R85M7LQ7",
       "title": "Address publication bias",
       "url": "https://github.com/chris-wood/draft-analysis-challenges/pull/5",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "chris-wood",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Closes #4.",
       "createdAt": "2023-03-27T01:26:16Z",
-      "updatedAt": "2023-03-27T01:29:43Z",
+      "updatedAt": "2023-03-28T03:12:29Z",
       "baseRepository": "chris-wood/draft-analysis-challenges",
       "baseRefName": "main",
       "baseRefOid": "df478b85abe3c1ec268c51059dfbed97845c14e8",
       "headRepository": "chris-wood/draft-analysis-challenges",
       "headRefName": "chris-wood-patch-1",
       "headRefOid": "f26b9f01139bd7f33a0b541a0024b3cdfd9cfeae",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2023-03-28T03:12:29Z",
+      "mergedAt": "2023-03-28T03:12:29Z",
+      "mergedBy": "chris-wood",
+      "mergeCommit": {
+        "oid": "f1119c3cf7b50c2daf60187a9e3cf9a8f719bcf9"
+      },
       "comments": [],
       "reviews": [
         {
